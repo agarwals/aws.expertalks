@@ -1,0 +1,23 @@
+Inclusions:
+
+# Setup for hands-on participation
+# Overview of AWS services: common and uncommon
+# AWS tools, SDKs
+# Configuration management tools: puppet
+# Application deployment scenario: yrctc.co.sin
+# yrctc.co.sin: every visitor can request and obtain a unique token
+# Deployment practices: how to manage releases
+# Security, IAM, etc.
+# Load testing using a large network of test clients
+- Test setup
+- Test network setup
+- Test network smoke test
+- Test data collection
+- Test network teardown
+- Test network costs
+# Scaling yrctc.so.sin
+- horizontally
+# Uptime
+# Fault-tolerance
+# Caveats
+# Conclusion
