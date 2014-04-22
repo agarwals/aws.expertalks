@@ -3,5 +3,16 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>ysrtc</display-name>
+
+    <servlet>
+        <servlet-name>BookTicketServlet</servlet-name>
+        <servlet-class>com.equalexperts.aws.BookTicketsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>BookTicketServlet</servlet-name>
+        <url-pattern>/bookTicket</url-pattern>
+    </servlet-mapping>
+
 </web-app>
