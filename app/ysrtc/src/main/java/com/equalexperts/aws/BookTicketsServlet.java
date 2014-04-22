@@ -22,7 +22,9 @@ public class BookTicketsServlet extends HttpServlet {
         Connection connection = null;
         Statement statement = null;
         ResultSet rs = null;
-        String url = "jdbc:mysql://localhost/ysrtc?user=ysrtc&password=ysrtc";
+        
+        //NOTE THAT "mysqldb" should resolve to the database host
+        String url = "jdbc:mysql://mysqldb/ysrtc?user=ysrtc&password=ysrtc";
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
