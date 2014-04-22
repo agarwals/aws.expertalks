@@ -1,0 +1,14 @@
+# Setup the security group with the appropriate access for required inbound traffic
+
+TODO:
+# Setup the specified number of instances for
+	- AMI
+	- the instance type
+	- region
+	- access credentials
+	- security group
+	
+Produce a manifest that lists the IP addresses, and instance IDs as the output.
+
+# Teardown the specified instances using the list of instance IDs as specified in a manifest.
+# Check for the run state of instances specified using a list of instance IDs as specified in a manifest.
