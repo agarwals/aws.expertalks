@@ -1,5 +1,4 @@
 #!/bin/bash
 RESERVATIONID=$1
 
-output=$(aws ec2 describe-instances --filters Name=reservation-id,Values=$RESERVATIONID)
-echo $output
+aws ec2 describe-instances --no-paginate --filters Name=reservation-id,Values=$RESERVATIONID | grep ASSOCIATION | awk '{print $3}' | sort | uniq > manifest.hostnames
