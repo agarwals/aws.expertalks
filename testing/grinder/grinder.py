@@ -11,4 +11,4 @@ test1.record(request1)
  
 class TestRunner:
     def __call__(self):
-        result = request1.GET("http://ysrtc.co.in:8080/ysrtc/bookTicket?bookedBy=abc")
+        result = request1.GET("http://ysrtc.co.sin:8080/ysrtc/bookTicket?bookedBy=abc")
