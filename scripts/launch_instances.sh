@@ -1,8 +1,12 @@
 #!/bin/bash
 
+# For EBS-backed: ami-2a045778
+# For instance-backed: ami-bc0556ee
+
 REGION=ap-southeast-1
 AVAILABILITY_ZONE=ap-southeast-1a
-IMAGE_ID=ami-2a045778
+#IMAGE_ID=ami-2a045778
+IMAGE_ID=ami-bc0556ee
 INSTANCE_TYPE=t1.micro
 KEY_NAME=krishnan
 COUNT=$1
