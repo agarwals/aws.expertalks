@@ -16,6 +16,6 @@ An AMI is created for grinder to allow creation of a large number of instances o
 The agents resolve the grinder console and the web application through pre-configured /etc/hosts entries
 The console and test execution and results gathering can be performed over REST end-points made available on the console
 
-#TODO: Postman collection for typical grinder console use to be shared publicly
+TODO: Postman collection for typical grinder console use to be shared publicly
 
 END-OF-FILE
