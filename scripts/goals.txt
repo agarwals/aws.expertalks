@@ -7,8 +7,12 @@
 	- access credentials
 	- security group
 	
-TODO:
-Produce a manifest that lists the IP addresses, and instance IDs as the output.
+# Produce a manifest that lists the hostnames, IP addresses, and instance IDs as the output.
 
-# Teardown the specified instances using the list of instance IDs as specified in a manifest.
-# Check for the run state of instances specified using a list of instance IDs as specified in a manifest.
+# Authorize the instances to the security group for access to the grinder console
+
+# Run the grinder agent on the test instances
+
+# Teardown the specified instances
+
+END-OF-FILE
